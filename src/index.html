@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form id="entry-form">
+        <label for="title">Title: </label>
+        <input type="text" id="title">
+        <br>
+        <label for="content">Content: </label>
+        <br>
+        <textarea id="content" form="entry-form" rows="10" cols="30" placeholder="Enter content here..."></textarea>
+        <br>
+        <button class="btn btn-info" type="submit">Enter Entry</button>
+      </form>
+      <div id="entries"></div>
+    </div>
+  </body>
+</html>
