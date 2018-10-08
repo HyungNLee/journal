@@ -1,5 +1,9 @@
 import { Entry } from './entry';
 import './styles.css';
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 var entries = [];
 
 $(document).ready(function() {
